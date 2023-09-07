@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-card">
+            <h1>Weather App</h1>
+            <div class="location">
+                <span class="icon"><iconify-icon icon="icon-park:city"></iconify-icon></span>
+                <input type="text" id="searchInput" placeholder="Enter a city">
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="weather-info">
+                <h2 id="city">City Name</h2>
+                <p id="temperature">Temperature: </p>
+                <p id="description">Description: </p>
+                <p id="humidity">Humidity: </p>
+                <p id="wind">Wind: </p>
+                <p id="sunrise">Sunrise: </p>
+                <p id="sunset">Sunset: </p>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
+
